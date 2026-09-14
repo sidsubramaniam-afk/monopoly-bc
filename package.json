@@ -1,0 +1,10 @@
+{
+  "name": "monopoly-bc-online",
+  "version": "1.1.0",
+  "private": true,
+  "description": "A faithful online recreation of the original Monopoly BC Latin-class board game.",
+  "main": "server.js",
+  "engines": {"node": ">=20"},
+  "scripts": {"start": "node server.js", "test": "node --test rules.test.js", "check": "node --check server.js && node --check public/app.js"},
+  "dependencies": {"express": "^4.21.2", "socket.io": "^4.8.1"}
+}
